@@ -1,0 +1,30 @@
+# Env files
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/*.pyc
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/package-lock.json
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.log
+
+# OS
+.DS_Store
